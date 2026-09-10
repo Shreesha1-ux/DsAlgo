@@ -22,10 +22,16 @@ void pattern1()
     }
     }
 
-
+    void pattern3(){
+        for(int i=1;i<=4;i++){
+            for(int j=1;j<=i;j++){
+                printf("%d",j);
+            }
+            printf("\n");
+        }
+    }
 
 int main() {
-    pattern1();
-    pattern2();
+    pattern3();
     return 0;
 }
